@@ -1,0 +1,206 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+html, body{
+	width:100%;
+	height: 100%;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.container-fluid{
+	height: 100%;
+	widows: 100%;
+	background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(255,255,255,0.5)), url(../images/bg1.jpg) no-repeat;
+	/*background-color: rgba(0,0,0,0.7);
+	background-image:url('../images/bg.jpg');*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	min-height: 500px;
+	overflow-y: auto;
+}
+
+.nav{
+	width:20%;
+	height: auto;
+	position: absolute;
+	top:20%;
+	left: 0;
+}
+
+.nav a{
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: cursive;
+	height: 20%;
+	margin: 2% 0;
+	float: left;
+	display: inline-block;
+	background: black;
+	color: white;
+	line-height:95px;
+	text-align: center;
+	transition: 300ms;
+}
+
+a.active{
+	background: white;
+	color:black;
+	width:100%;
+}
+
+.nav a:hover{
+	background: white;
+	color: black;
+	width:100%;
+}
+
+.a{
+	width:95%;
+}
+
+.b{
+	width: 85%;
+}
+.c{
+	width: 80%;
+}
+
+.d{
+	width: 90%;
+}
+
+.content{
+	width:50%;
+	height: 200px;
+	position: absolute;
+	right: 0;
+	top:60%;
+}
+
+.home{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: white;
+	width:100%;
+	font-family: cursive;
+	
+
+}
+.home h1{
+	font-size: 3em;
+	padding-right: 10%;
+	font-weight: bold;
+	border-bottom: 1px solid white;
+	text-transform: uppercase;
+}
+
+.home h3{
+	font-size: 2em;
+	font-weight: bold;
+	opacity: .6;
+}
+
+.aboutme{
+	position: absolute;
+	right: 0;
+	top: 30px;
+	color: white;
+	font-family: century gothic;
+	padding-right: 60px;
+	width:60%;
+	display: none;
+}
+
+
+.aboutme p{
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+
+.gallery{
+	position: absolute;
+	right: 0;
+	top: 20px;
+	color: white;
+	display: none;
+}
+
+.gallery img{
+	padding-top:20px;
+	width:90%;
+	box-sizing: border-box;
+	box-shadow: 2px black;
+	transition: all ease 0.5s;
+	-webkit-transition:all ease 0.5s;
+	transform: scale(1);
+	-webkit-transform:scale(1);
+	
+}
+
+.gallery img:hover{
+	transform: scale(1.1);
+	-webkit-transform:scale(1.1);
+}
+
+.upload label{
+	font-size: 2em;
+}
+.upload small{
+	font-size: 1.2em;
+}
+
+
+.upload input{
+	font-size: 3em;
+	text-align: center;
+	background: rgba(0,0,0,.7);
+	font-family: cursive;
+
+}
+
+.contact{
+	position: absolute;
+	right: 0;
+	top: 50px;
+	padding: 0 60px;
+	color: white;
+	display: none;
+
+}
+.contact label{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.contact input{
+	width:55%;
+	height: 65px;
+	font-size: 1.3em;
+	background: rgba(0,0,0,.2);
+	color:white;
+	border:3px solid black;
+}
+.contact textarea{
+	width:55%;
+	background: rgba(0,0,0,.2);
+	font-size: 1.3em;
+	border:3px solid black;
+}
+
+.contact button{
+	width: 150px;
+	height: 60px;
+	font-size: 1.2em;
+	border: none;
+	font-weight: bold;
+	font-family: cursive;
+}
+
